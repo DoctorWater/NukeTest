@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <PackageReference Include="Nuke.Build" Version="8.0.0" />
+      <PackageReference Include="Nuke.Build.Shared" Version="8.0.0" />
     </ItemGroup>
 
 </Project>

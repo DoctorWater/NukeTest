@@ -6,12 +6,13 @@ using Nuke.Common.Git;
 using Nuke.Common.ProjectModel;
 using Nuke.Common.Tools.DotNet;
 using Nuke.Common.Tools.GitVersion;
+using Nuke.Common.Tools.NerdbankGitVersioning;
 using static Nuke.Common.IO.FileSystemTasks;
 
 class Build : NukeBuild
 {
-    [GitRepository] readonly GitRepository GitRepository;
-    [GitVersion] readonly GitVersion GitVersion;
+    [NerdbankGitVersioning]
+    readonly NerdbankGitVersioning NerdbankVersioning;
     
     [Solution]      readonly Solution      Solution;
     public static            int           Main() => Execute<Build>(x => x.Pack);
@@ -54,7 +55,7 @@ class Build : NukeBuild
             {
                 DotNetTasks.DotNetPack(s => s
                     .SetProject(Solution)
-                    .SetVersion(GitVersion.NuGetVersion)
+                    .SetVersion(NerdbankVersioning.NuGetPackageVersion)
                     .SetConfiguration(Configuration)
                     .SetOutputDirectory("artifacts"));
             });

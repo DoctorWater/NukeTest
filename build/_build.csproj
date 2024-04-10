@@ -12,12 +12,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.6.133" />
     <PackageReference Include="Nuke.Build" Version="8.0.0" />
+    <PackageReference Include="Nuke.Build.Shared" Version="8.0.0" />
     <PackageReference Include="Nuke.Common" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageDownload Include="GitVersion.Tool" Version="[5.12.0]" />
+    <PackageDownload Include="nbgv" Version="[3.6.133]" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="..\version.json" />
   </ItemGroup>
 
 </Project>
