@@ -4,20 +4,28 @@
     <projectFile>NukeTest/NukeTest.csproj</projectFile>
     <projectFile>build/_build.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="adfb9b9e-4049-4051-96af-07951f3282a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NukeTest.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NukeTest/NukeTest.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NukeTest/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+    <list default="true" id="adfb9b9e-4049-4051-96af-07951f3282a5" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NukeTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NukeTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NukeTest/NukeTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NukeTest/NukeTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/build/Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_build.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/build/_build.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c770a3ed1d5824c9c6753cb5bdc6f693fdb1e33f5ac59f71aa7e01b32eb3/ExecutableTargetFactory.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
   </component>
@@ -32,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project._build.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -48,7 +57,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.NukeTest">
+  <component name="RunManager" selected=".NET Project._build">
     <configuration name="NukeTest" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -94,15 +103,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712739968185</updated>
-      <workItem from="1712739968186" duration="340000" />
+      <workItem from="1712739968186" duration="1003000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1712740352014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712740352014</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/build/Build.cs</url>
+          <line>50</line>
+          <properties documentPath="C:\Users\Admin\RiderProjects\NukeTest\build\Build.cs" containingFunctionPresentation="Property 'Pack'">
+            <startOffsets>
+              <option value="1496" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1844" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
