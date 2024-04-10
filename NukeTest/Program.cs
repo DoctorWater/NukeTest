@@ -3,4 +3,4 @@
 
 using NukeTest.Models;
 
-var user = new User("Josh");
+var user = new User("Josh", "");
